@@ -38,13 +38,13 @@ int main(){
     cout << "\nUang Makan   : -";
     cout << "\n---------------------------------------";
   }else if(jjk >=10){
-    cout << "\nGaji Pokok   : " << gapok(jjk);
+    cout << "\nGaji Pokok   : " << gapok(8);
     cout << "\nGaji Lembur  : " << lembur(jjk);
     cout << "\nUang Makan   : " << makan();
     cout << "\nUang Makan   : " << transport();
     cout << "\n---------------------------------------";
   }else{
-    cout << "\nGaji Pokok   : " << gapok(jjk);
+    cout << "\nGaji Pokok   : " << gapok(8);
     cout << "\nGaji Lembur  : " << lembur(jjk);
     cout << "\nUang Makan   : " << makan();
     cout << "\nUang Makan   : -";
